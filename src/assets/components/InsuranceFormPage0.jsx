@@ -2,9 +2,18 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../../insuranceFormpages.css";
+import { useNavigate } from "react-router-dom";
 
- 
+
 const FormPage0 = () => {
+
+  const navigate = useNavigate();
+
+  const handleNext = () => {
+    navigate("/form1"); 
+  };
+
+
   return (
     <div className="mainConent">
       <div className="insurancefrompage0-div0">
@@ -217,9 +226,11 @@ const FormPage0 = () => {
           tailored for you-Start your protection journey now”
         </p>
                   {/* Submit Button */}
-                  <div className="form-submit-div">
-            <button type="next">Next</button>
-          </div>
+      <div className="form-submit-div">
+        <button type="button" onClick={handleNext}>
+          Next
+        </button>
+      </div>
       </div>
     </div>
     </div>

@@ -6,7 +6,7 @@ import FormPage0 from "../src/assets/components/InsuranceFormPage0";
 import FormPage1 from "../src/assets/components/InsuranceFormPage1";
 import FormPage2 from "../src/assets/components/InsuranceFormPage2";
 import FormPage3 from "../src/assets/components/InsuranceFormPage3";
-import Img2 from "../src/assets/Images/insurancePage/img2.jpg";
+import Img2 from "./assets/Images/insurancePage/img2.jpg";
 import RegularInsuranceImg from "../src/assets/Images/insurancePage/img3.webp";
 import MicroInsuranceImg from "../src/assets/Images/insurancePage/microInsuranceImg.png";
 

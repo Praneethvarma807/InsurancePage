@@ -1,6 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const FormPage2 = () => {
+  const navigate = useNavigate();
+
+  const handleNext = () => {
+    navigate("/form3"); // Navigate to InsuranceFormPage1
+  };
   return (
     <div className='insurancefrompage2-div'>
       <div className='insurancefrompage2-div1'>
@@ -11,55 +17,55 @@ const FormPage2 = () => {
       <div className='insurancefrompage2-div2'>
         <h3 className='insurancefrompage2-div2-h3_1'>Personal Information</h3>
         <ul className='insurancefrompage2-div2-h3_1-ul1'>
-          <li>
-            <h5>Residential Status</h5>
-            <p>----</p>
+        <li>
+          <h4>Residential Status <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Date Of Birth</h5>
-          <p>----</p>
+          <h4>Date Of Birth <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Gender</h5>
-          <p>----</p>
+          <h4>Gender <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
         </ul>
         <h3 className='insurancefrompage2-div2-h3_2'>Product Information</h3>
         <ul className='insurancefrompage2-div2-h3_1-ul2'>
-          <li>
-            <h5>Plan Number</h5>
-            <p>----</p>
+        <li>
+          <h4>Plan Number <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Sum Assured</h5>
-          <p>----</p>
+          <h4>Sum Assured <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Installment Premium</h5>
-          <p>----</p>
+          <h4>Installment Premium <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Policy Term</h5>
-          <p>----</p>
+          <h4>Policy Term <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
         </ul>
 
         <ul className='insurancefrompage2-div2-h3_1-ul3'>
-          <li>
-            <h5>Premium Paying Term</h5>
-            <p>----</p>
+        <li>
+          <h4>Premium Paying Term <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Premium Payment Mode</h5>
-          <p>----</p>
+          <h4>Premium paying Mode <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Age</h5>
-          <p>----</p>
+          <h4>Age <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
           <li>
-          <h5>Date Commencement</h5>
-          <p>----</p>
+          <h4>Date Commencment <p>*</p></h4>
+          <input type="text"  placeholder='Type here' required/>
           </li>
         </ul>
 
@@ -88,6 +94,14 @@ const FormPage2 = () => {
       
       <p className='pagecount'>“Start Your Journey to Protection Today!”
       “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
+
+
+       {/* Submit Button */}
+       <div className="form-submit-div1">
+        <button type="button" onClick={handleNext}>
+          Next
+        </button>
+      </div>
     </div>
   );
 };

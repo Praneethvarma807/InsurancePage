@@ -1,7 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 const FormPage1 = () => {
+
+
+  const navigate = useNavigate();
+
+  const handleNext = () => {
+    navigate("/form2"); // Navigate to InsuranceFormPage1
+  };
+
   return (
     <div className='insurancefrompage1-div'>
       <div className='insurancefrompage1-div1'>
@@ -49,7 +58,17 @@ const FormPage1 = () => {
       </div>
       <p className='pagecount'>“Start Your Journey to Protection Today!”
       “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
+
+      {/* Submit Button */}
+      <div className="form-submit-div1">
+        <button type="button" onClick={handleNext}>
+          Next
+        </button>
+      </div>
     </div>
+
+    
+    
   );
 };
 
