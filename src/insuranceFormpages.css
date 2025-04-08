@@ -464,7 +464,7 @@ a:hover {
   padding: 20px;
   margin: 10px;
   margin-top: 50px;
-  background-color: rgb(235, 235, 244);
+  background-color: #ffffff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 70vw;
 }
@@ -541,7 +541,7 @@ a:hover {
 .lastimage {
   position: relative;
   left: 20%;
-  top: 30px;
+  border: #000 1px solid;
 }
 .itemContainers{
   display: flex;

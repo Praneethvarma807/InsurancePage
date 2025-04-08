@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import LastpageImg from "../images/comingSoonPage/laststeps.png";
+ import Insurancelastpageimage from '../images/insurancePage/insurancepage3lastimg.jpg';
 
 
 const FormPage3 = () => {
@@ -30,7 +30,7 @@ const FormPage3 = () => {
      </div>
      
      <div className='insurancefrompage3-div3'>
-      <img src={LastpageImg} alt="final step img"  className='lastimage'/>
+      <img src={Insurancelastpageimage}alt="final step img"  className='lastimage'/>
       
      </div>
      
