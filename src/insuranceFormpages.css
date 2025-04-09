@@ -69,13 +69,13 @@ body {
 .Insuranceform0-group-div {
   display: flex;
   justify-content: space-evenly;
-  border-radius: 40px;
+
   border: black;
   width: 100%;
   right: 30%;
+  border-radius: 10px;
   align-items: center;
-  box-shadow: 1px 1px 10px;
-  background-color: #8a2be233;
+  background-color: #07070733;
 }
 
 .Insuranceform-group {
@@ -221,8 +221,9 @@ span {
   padding: 10px 20px;
   border: #fff;;
   border-radius: 10px;
+  text-align: center;
   color: #000;
-  margin-inline-start:20em;
+
 
 }
 .form-submit-div1{
@@ -230,15 +231,14 @@ span {
   border: #fff;;
   border-radius: 10px;
   color: #000;
-  margin-inline-start: 20em;
+  text-align: center;
 
 }
 .form-submit-div2{
   padding: 10px 20px;
 
   border-radius: 10px;
-  margin-inline-start: 35em;
-
+text-align: center;
 }
 
 
@@ -253,7 +253,7 @@ span {
 
 .insurancefrompage1-div {
   width: 80%;
-  margin-top: 100em;
+  margin-top: 150em;
   margin: auto;
   font-family: Arial, sans-serif;
 }
@@ -355,7 +355,7 @@ a:hover {
 }
 
 .insurancefrompage2-div2 {
-  background-color: #892be21a;
+  background-color: #ac6aeb1a;
   padding-top: 10px;
   width: 100%;
   margin-right: 400px;
@@ -401,7 +401,7 @@ a:hover {
 
 .insurancefrompage2-div3 {
   margin-top: 10px;
-  background-color: #892be265;
+  background-color: #87829365;
   border-radius: 10px;
 }
 
@@ -413,7 +413,6 @@ a:hover {
 }
 
 .insurancefrompage2-div3-ul1 li {
-  border: 2px solid #3300ff;
   border-radius: 10px;
   margin-top: 30px;
   box-shadow: 0px 0px 1px;
