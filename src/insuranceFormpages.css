@@ -253,7 +253,6 @@ text-align: center;
 
 .insurancefrompage1-div {
   width: 80%;
-  margin-top: 150em;
   margin: auto;
   font-family: Arial, sans-serif;
 }
@@ -261,6 +260,7 @@ text-align: center;
 .insurancefrompage1-div1 h3 {
   font-size: 20px;
   font-weight: bold;
+  margin-top: 100px;
 }
 
 .insurancefrompage1-div1 p {
@@ -433,8 +433,7 @@ a:hover {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
-  margin-top: 10px;
-  padding: 20px;
+  margin-top: 100px;
   margin: 10px;
   margin-top: 50px;
   background-color: #ffffff;
