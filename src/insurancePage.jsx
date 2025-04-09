@@ -6,8 +6,7 @@ import FormPage0 from "../src/assets/components/InsuranceFormPage0";
 import FormPage1 from "../src/assets/components/InsuranceFormPage1";
 import FormPage2 from "../src/assets/components/InsuranceFormPage2";
 import FormPage3 from "../src/assets/components/InsuranceFormPage3";
-import insuranceImg from './assets/Images/insurancePage/insurancefirstpageimage1.jpg';
-
+import Insurancefirstpageimage from "./assets/Images/insurancePage/insurancefirstpageimage1.jpg";
 import RegularInsuranceImg from "../src/assets/Images/insurancePage/microInsuranceImg.png";
 import MicroInsuranceImg from "../src/assets/Images/insurancePage/microInsuranceImg.png";
 
@@ -27,7 +26,7 @@ const Insurance = () => {
           <nav className="mainInsurance-nav">
             <div className="mainInsurance-nav-div1">
               <h4>
-                Vdr Insurance
+                VDR INSURANCE
               </h4>
             </div>
             <div className="mainInsurance-nav-div2">
@@ -106,7 +105,7 @@ const Insurance = () => {
           {/* Insurance Content */}
           <div className="mainInsurance-div">
             <div className="mainInsurance-div-imgdiv">
-              <img src={insuranceImg} alt="Insurance Banner" />
+              <img src={Insurancefirstpageimage} alt="Insurance Banner" />
             </div>
             <div className="mainInsurance-div-uldiv">
               <ul className="mainInsurance-div-uldiv-ul">
