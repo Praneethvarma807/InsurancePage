@@ -6,9 +6,9 @@ import FormPage0 from "../src/assets/components/InsuranceFormPage0";
 import FormPage1 from "../src/assets/components/InsuranceFormPage1";
 import FormPage2 from "../src/assets/components/InsuranceFormPage2";
 import FormPage3 from "../src/assets/components/InsuranceFormPage3";
-import Insurancefirstpageimage from "./assets/Images/insurancePage/Insurancefirstpageimage1.jpg";
-import RegularInsuranceImg from "../src/assets/Images/insurancePage/microInsuranceImg.png";
-import MicroInsuranceImg from "../src/assets/Images/insurancePage/microInsuranceImg.png";
+import Insurancefirstpageimage from "./assets/images/insurancePage/Insurancefirstpageimage1.jpg";
+import RegularInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
+import MicroInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
 
 const Insurance = () => {
   const [showForm, setShowForm] = useState(false);
