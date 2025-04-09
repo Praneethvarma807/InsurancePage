@@ -4,15 +4,6 @@
   padding: 1em;
 }
 
-pagecount {
-  line-height: 15px;
-  color: black;
-  position: relative;
-  left: 13rem;
-  top: 3.5rem;
-  width: 400px;
-  color: rgba(10, 228, 10, 0.938);
-}
 
 body {
   font-family: Arial, sans-serif;
@@ -55,7 +46,7 @@ body {
   padding: 20px;
   position: center;
   margin: 5rem;
-  margin-top: 10rem;
+  margin-top: 50rem;
   padding: 1em;
   border-radius: 1em;
 
@@ -261,6 +252,7 @@ span {
 
 .insurancefrompage1-div {
   width: 80%;
+  margin-top: 50em;
   margin: auto;
   font-family: Arial, sans-serif;
 }
@@ -351,7 +343,7 @@ a:hover {
 /* InsurancePage2 */
 .insurancefrompage2-div1 {
   padding: 10px;
-  margin-top: 120px;
+  margin-top: 50em;
   text-align: start;
 }
 .insurancefrompage2-div1 h3 {
@@ -441,6 +433,7 @@ a:hover {
   border: 1px solid black;
   border-radius: 10px;
   padding: 10px;
+  margin-top: 10px;
   padding: 20px;
   margin: 10px;
   margin-top: 50px;

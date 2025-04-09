@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./insurancePage.css";
 import "./insuranceFormpages.css";
+import { useNavigate } from "react-router-dom";
 import { FaChevronDown } from "react-icons/fa";
 import FormPage0 from "../src/assets/components/InsuranceFormPage0";
 import FormPage1 from "../src/assets/components/InsuranceFormPage1";
@@ -11,12 +12,16 @@ import RegularInsuranceImg from "../src/assets/images/insurancePage/microInsuran
 import MicroInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
 
 const Insurance = () => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm] = useState(false);
   const [dropdown, setDropdown] = useState(null);
 
-  const handleInsuranceType = () => {
-    setShowForm(true);
+  const navigate = useNavigate();
+
+  const handleInsuranceType = (type) => {
+    navigate('/formpage0', { state: { insuranceType: type } });
   };
+  
+
 
   return (
     <>
@@ -150,9 +155,10 @@ const Insurance = () => {
                 <li>
                   <button
                     className="mainInsurance-div-uldiv-ul-btn"
-                    onClick={handleInsuranceType}
-                  >
-                    CLICK HERE <br /> TO APPLY
+                    onClick={() => handleInsuranceType('Regular')}
+                    >
+                    CLICK HERE <br />
+                    TO APPLY
                   </button>
                 </li>
               </ul>
@@ -186,10 +192,12 @@ const Insurance = () => {
                   </p>
                   <button
                     className="mainInsurance-div2-div2-btn"
-                    onClick={handleInsuranceType}
-                  >
-                    CLICK HERE <br /> TO APPLY
+                    onClick={() => handleInsuranceType('Regular')}
+                    >
+                    CLICK HERE <br />
+                    TO APPLY
                   </button>
+
                 </div>
               </li>
               <li>
@@ -209,7 +217,7 @@ const Insurance = () => {
                   </p>
                   <button
                     className="mainInsurance-div2-div2-btn"
-                    onClick={handleInsuranceType}
+                    onClick={() => handleInsuranceType('Regular')}
                   >
                     CLICK HERE <br />
                     TO APPLY
@@ -218,12 +226,9 @@ const Insurance = () => {
               </li>
             </ul>
           </div>
-        </div>
-      ) : (
-        <FormPage0 />
-      )}
-    </>
-  );
-};
-
+        </div> 
+        ) : null}
+        </>
+      );
+    };
 export default Insurance;

@@ -8,7 +8,7 @@ const FormPage1 = () => {
   const navigate = useNavigate();
 
   const handleNext = () => {
-    navigate("/form2"); // Navigate to InsuranceFormPage1
+    navigate("/form2"); 
   };
 
   return (
@@ -59,7 +59,6 @@ const FormPage1 = () => {
       <p className='pagecount'>“Start Your Journey to Protection Today!”
       “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
 
-      {/* Submit Button */}
       <div className="form-submit-div1">
         <button type="button" onClick={handleNext}>
           Next
