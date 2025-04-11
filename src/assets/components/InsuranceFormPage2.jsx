@@ -5,7 +5,7 @@ const FormPage2 = () => {
   const navigate = useNavigate();
 
   const handleNext = () => {
-    navigate("/form3"); // Navigate to InsuranceFormPage1
+    navigate("/form3"); 
   };
   return (
     <div className='insurancefrompage2-div'>
@@ -100,6 +100,11 @@ const FormPage2 = () => {
        <div className="form-submit-div1">
         <button type="button" onClick={handleNext}>
           Next
+        </button>
+      </div>
+      <div className="form-submit-div-back1">
+        <button type="button" onClick={() => navigate(-1)}>
+          Back
         </button>
       </div>
     </div>

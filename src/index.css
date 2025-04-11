@@ -3,14 +3,21 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Optional: remove this or set only to light to avoid dark mode styles */
+  color-scheme: light;
+
+  color: #000 !important; /* force dark text */
+  background-color: #ffffff !important; /* force white background */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #ffffff !important; /* ensure body also stays white */
+  color: #000 !important; /* ensure body text stays dark */
 }
 
 a {
@@ -42,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
   cursor: pointer;
   transition: border-color 0.25s;
 }

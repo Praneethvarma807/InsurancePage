@@ -10,6 +10,10 @@ import FormPage3 from "../src/assets/components/InsuranceFormPage3";
 import Insurancefirstpageimage from "./assets/images/insurancePage/Insurancefirstpageimage1.jpg";
 import RegularInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
 import MicroInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
+import VDRLOGO from"../src/assets/images/insurancePage/VDrlogoBg.png";
+import HeaderImage from "../src/assets/images/insurancePage/HeaderBg.png";
+import FooterImage from "../src/assets/images/insurancePage/FooterBg.png";
+
 
 const Insurance = () => {
   const [showForm] = useState(false);
@@ -27,14 +31,16 @@ const Insurance = () => {
     <>
       {!showForm ? (
         <div className="mainInsurance-container">
+  
           {/* Insurance Navigation */}
           <nav className="mainInsurance-nav">
-            <div className="mainInsurance-nav-div1">
-              <h4>
-                VDR INSURANCE
-              </h4>
-            </div>
-            <div className="mainInsurance-nav-div2">
+          <div className="mainInsurance-nav-div1">
+          <img 
+           src={VDRLOGO} 
+           className="insurance-logo"
+        />
+        </div>
+        <div className="mainInsurance-nav-div2">
               <ul>
                 {/* Personal Dropdown */}
                 <li

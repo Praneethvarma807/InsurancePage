@@ -1,74 +1,47 @@
 
   
- .pagecount{
-    line-height: 15px;
-      color: black;
-      position: relative;
-      left: 13rem;
-      top: 3.5rem;
-      width: 450px;
-      color: rgba(10, 228, 10, 0.938);
-    }
-    
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 10vh;
-      margin: 0;
-    }
-    
-    .Insurancecontainer{
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.1);
-      width: 900px;
-      position: absolute;
-      left: 18%;
-      top: 1pxpx;
-      height: 750px;
-      background-color: rgba(230, 229, 229, 0.488);
-    }
-    
-    
-    .pagination {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-   
-    
-    .pagination button {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      background-color: #faa80f;
-      color: #fff;
-      cursor: pointer;
-    }
-    
-    .pagination button.disabled {
-      background-color: #eecb8970;
-      cursor: not-allowed;
-    }
+ :root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
   
-   
-  
-    
-    @media (prefers-color-scheme: light) {
-      :root {
-        color: #213547;
-        background-color: #ffffff;
-      }
-      a:hover {
-        color: #747bff;
-      }
-      button {
-        background-color: #f9f9f9;
-      }
-    }
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin-top: 10px;
+  margin: 0;
+}
+
+.Insurancecontainer {
+  overflow: hidden;
+  padding: 0px;
+  border-radius: 8px;
+  width: 30px;
+  background: 3FFF;
+  border: 1px solid black;
+  margin-top: 1px;
+  left: 18%;
+  height: 750px;
+  background-color: rgba(230, 229, 229, 0.488);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
     
     
     /* Insurancepage0 */

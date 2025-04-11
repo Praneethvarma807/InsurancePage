@@ -6,8 +6,20 @@ Main Container
   left: 0px;
   z-index: 0;
   padding: 0%;
-  background-color: #fff;
+  
 }
+
+
+.insurance-logo{
+  width: 90px;
+  height: 90px;
+  margin-top: 20px;
+
+}
+
+
+
+
 
 /* Navigation Bar */
 .mainInsurance-nav {
@@ -15,8 +27,9 @@ Main Container
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 90px;
-  margin-top: 450px;
+
+  height: 70px;
+  margin-top: 300px;
   padding: 0 0px;
   background-color: #fff;
 }
@@ -24,7 +37,7 @@ Main Container
 .mainInsurance-nav-div1 h4 {
   line-height: normal;
   margin: 0;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .mainInsurance-nav-div2 ul {
@@ -49,6 +62,8 @@ Main Container
 .mainInsurance-nav-div3 {
   font-weight: 600;
   font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 

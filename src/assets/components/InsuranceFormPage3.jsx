@@ -34,13 +34,22 @@ const FormPage3 = () => {
       
      </div>
      
-      <p className='pagecount'>“Start Your Journey to Protection Today!”
-      “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
-    </div>
-    <div className="form-submit-div2">
+     <p className='pagecount'>
+  “Start Your Journey to Protection Today!”<br />
+  “It’s easy, quick, and tailored for you - Start your protection journey now”
+</p>
+</div>
+
+<div className="form-submit-div2">
   <button type="button">Submit</button>
 </div>
+<div className="form-submit-div-back3">
+<button type="button" onClick={() => window.history.back()}>Back</button>
+</div>
+
+
     </div>
+    
   );
 };
 
