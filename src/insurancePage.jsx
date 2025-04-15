@@ -11,8 +11,6 @@ import Insurancefirstpageimage from "./assets/images/insurancePage/Insurancefirs
 import RegularInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
 import MicroInsuranceImg from "../src/assets/images/insurancePage/microInsuranceImg.png";
 import VDRLOGO from"../src/assets/images/insurancePage/VDrlogoBg.png";
-import HeaderImage from "../src/assets/images/insurancePage/HeaderBg.png";
-import FooterImage from "../src/assets/images/insurancePage/FooterBg.png";
 
 
 const Insurance = () => {
@@ -30,8 +28,9 @@ const Insurance = () => {
   return (
     <>
       {!showForm ? (
+        
         <div className="mainInsurance-container">
-  
+        
           {/* Insurance Navigation */}
           <nav className="mainInsurance-nav">
           <div className="mainInsurance-nav-div1">
@@ -232,6 +231,7 @@ const Insurance = () => {
               </li>
             </ul>
           </div>
+          
         </div> 
         ) : null}
         </>

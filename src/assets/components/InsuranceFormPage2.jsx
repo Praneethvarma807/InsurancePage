@@ -19,53 +19,53 @@ const FormPage2 = () => {
         <ul className='insurancefrompage2-div2-h3_1-ul1'>
         <li>
           <h4>Residential Status <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Residential Status' required/>
           </li>
           <li>
           <h4>Date Of Birth <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Date Of Birth' required/>
           </li>
           <li>
           <h4>Gender <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Gender ' required/>
           </li>
         </ul>
         <h3 className='insurancefrompage2-div2-h3_2'>Product Information</h3>
         <ul className='insurancefrompage2-div2-h3_1-ul2'>
         <li>
           <h4>Plan Number <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Plan Number' required/>
           </li>
           <li>
           <h4>Sum Assured <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Sum Asuured' required/>
           </li>
           <li>
           <h4>Installment Premium <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Installment Premium' required/>
           </li>
           <li>
           <h4>Policy Term <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Policy Term' required/>
           </li>
         </ul>
 
         <ul className='insurancefrompage2-div2-h3_1-ul3'>
         <li>
           <h4>Premium Paying Term <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Premium Paying Term' required/>
           </li>
           <li>
           <h4>Premium paying Mode <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Premium Paying mode' required/>
           </li>
           <li>
           <h4>Age <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Age' required/>
           </li>
           <li>
           <h4>Date Commencment <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Date Commencment' required/>
           </li>
         </ul>
 
@@ -92,7 +92,7 @@ const FormPage2 = () => {
 
       </div>
       
-      <p className='pagecount'>“Start Your Journey to Protection Today!”
+      <p className='pagecount-2'>“Start Your Journey to Protection Today!”
       “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
 
 

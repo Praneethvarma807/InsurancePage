@@ -22,7 +22,7 @@ const FormPage0 = () => {
             <div className="insurancefrompage2-div">
               <div className="insurancefrompage3-div1">
           <h3>A Few Basic Details</h3>
-          <p>
+          <p> 
             Please provide the following details to proceed for a non obligation
             indicative quote
           </p>

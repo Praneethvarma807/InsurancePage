@@ -21,11 +21,11 @@ const FormPage1 = () => {
       <div className='insurancefrompage1-div2'>
         <ul>
           <li> <h4>Basic Sum Assured <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Basic Sum Assured' required/>
           </li>
           <li>
           <h4>Premium Paying Term <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Premium Paying Term ' required/>
           <a href="">What is Premium Paying Term?</a>
           </li>
         </ul>
@@ -34,20 +34,20 @@ const FormPage1 = () => {
         <ul>
           <li>
           <h4>Under NACH? <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Under NACH ' required/>
           <a href="">What is NACH?</a>
           </li>
           <li>
           <h4>Date of Commencement <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Date of Commencement ' required/>
           </li>
           <li>
           <h4>Policy Term <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Policy  Term ' required/>
           </li>
           <li>
           <h4>Preferred Mode <p>*</p></h4>
-          <input type="text"  placeholder='Type here' required/>
+          <input type="text"  placeholder='Enter Preferred Mode ' required/>
           <a href="">What is Preferred Mode?</a>
           </li>
         </ul>
@@ -56,7 +56,7 @@ const FormPage1 = () => {
       <div className='insurancefrompage1-div4'>
         {/* <img src={InsuranceImage} alt="InsuranceImage" /> */}
       </div>
-      <p className='pagecount'>“Start Your Journey to Protection Today!”
+      <p className='pagecount-1'>“Start Your Journey to Protection Today!”
       “It’s easy, quick, and tailored for you-Start your protection journey now”</p>
 
       <div className="form-submit-div1">

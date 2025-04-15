@@ -8,7 +8,7 @@ const FormPage3 = () => {
   return (
     <div>
       <div className='insuranceborder-div'>
-     <div className='insurancefrompage3-div1'>
+     <div className='insurancefrompage3-div1-p3'>
       <h2>ONE LAST STEP</h2>
       <p>Choose Rider Benefits which offer extra coverage which can be helpful in times of financial crisis</p>
      </div>
@@ -34,7 +34,7 @@ const FormPage3 = () => {
       
      </div>
      
-     <p className='pagecount'>
+     <p className='pagecount-3'>
   “Start Your Journey to Protection Today!”<br />
   “It’s easy, quick, and tailored for you - Start your protection journey now”
 </p>
