@@ -429,6 +429,35 @@ a:hover {
   padding-left: 40px;
   gap: 100px;
 }
+.gender-li2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  margin-bottom: 20px;
+}
+
+.gender-li input2 {
+  margin-left: 5px;
+  width: 16px;
+  margin-top: 10px;
+  height: 16px;
+}
+
+.gender-input-li2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: -1-px;
+  margin-top: 13px;
+}
+
+#gender {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -1px;
+  margin-left: 5px;
+}
 
 .insurancefrompage2-div2-h3_2 {
   margin-top: 10px;

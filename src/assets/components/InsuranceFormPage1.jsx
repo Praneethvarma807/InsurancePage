@@ -34,12 +34,17 @@ const FormPage1 = () => {
         <ul>
           <li>
           <h4>Under NACH? <p>*</p></h4>
-          <input type="text"  placeholder='Enter Under NACH ' required/>
-          <a href="">What is NACH?</a>
+          <select required>
+  <option value="">Select</option>
+  <option value="Yes">Yes</option>
+  <option value="No">No</option>
+</select>        
+
+  <a href="">What is NACH?</a>
           </li>
           <li>
           <h4>Date of Commencement <p>*</p></h4>
-          <input type="text"  placeholder='Enter Date of Commencement ' required/>
+          <input type="date"  placeholder='Enter Date of Commencement ' required/>
           </li>
           <li>
           <h4>Policy Term <p>*</p></h4>
@@ -47,7 +52,16 @@ const FormPage1 = () => {
           </li>
           <li>
           <h4>Preferred Mode <p>*</p></h4>
-          <input type="text"  placeholder='Enter Preferred Mode ' required/>
+          <option value="">Select Payment Mode</option>
+          <select >
+  <option value="NACH">NACH (Auto-debit)</option>
+  <option value="Credit Card">Credit Card</option>
+  <option value="Debit Card">Debit Card</option>
+  <option value="Net Banking">Net Banking</option>
+  <option value="UPI">UPI</option>
+  <option value="Cheque">Cheque</option>
+  <option value="Cash">Cash</option>
+</select>
           <a href="">What is Preferred Mode?</a>
           </li>
         </ul>
