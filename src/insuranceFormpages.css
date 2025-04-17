@@ -221,7 +221,7 @@ span {
   margin-top: 0px;
   height: 50px;
   width: 100px;
-margin-left: 30em;
+margin-left: 60em;
   border: none;
   border-radius: 4px;
   font-size: 14px;
@@ -254,6 +254,17 @@ margin-left: 60em;
   width: 100px;
   height: 50px;
   margin-top:-50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-back-div0{
+  display: block;
+  /* margin-bottom: 0px; */
+  height: 30px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 1px;
   cursor: pointer;
   font-weight: bold;
 }

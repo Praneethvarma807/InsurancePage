@@ -31,14 +31,16 @@ const Insurance = () => {
         
         <div className="mainInsurance-container">
         
-          {/* Insurance Navigation */}
-          <nav className="mainInsurance-nav">
-          <div className="mainInsurance-nav-div1">
-          <img 
-           src={VDRLOGO} 
-           className="insurance-logo"
-        />
-        </div>
+        <nav className="mainInsurance-nav">
+  <div className="mainInsurance-nav-div1">
+    <a href="https://vdr-pre-production.vercel.app/">
+      <img 
+        src={VDRLOGO} 
+        className="insurance-logo"
+        alt="Insurance Logo"
+      />
+    </a>
+  </div>
         <div className="mainInsurance-nav-div2">
               <ul>
                 {/* Personal Dropdown */}

@@ -232,7 +232,13 @@ const FormPage0 = () => {
         </button>
       </div>
       </div>
+      <div className="form-submit-div-back0">
+        <button type="button" onClick={() => navigate(-1)}>
+          Back
+        </button>
+      </div>
     </div>
+    
     </div>
     </div>
     </div>
